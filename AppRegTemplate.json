@@ -1,0 +1,27 @@
+{
+    "name": "Ext. Name Here",
+    "title": "Ext. Title Here",
+    "description": "Ext. Description Here",
+    "services": [
+        "Customizer"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Community Hide Create Button",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "dnug/tbd",
+                    "dnug/tbd"
+                ],
+                "match": {
+                    "url": "*"
+                }
+            },
+            "path": "communities",
+            "application": "Community Hide Create Button",
+            "state": "enabled"
+        }
+    ]
+}
