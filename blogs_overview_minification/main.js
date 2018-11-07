@@ -49,8 +49,9 @@ document.addEventListener('DOMContentLoaded', function(){
             }
             else
             {
-                entry.style.maxHeight = "auto";
-                entry.style.overflowY = "auto";
+                entry.style.maxHeight   = "";
+				entry.style.height      = "auto";
+                entry.style.overflowY   = "auto";
                 entry.setAttribute('data-expanded',true);
                 link.innerText = strings[user_lang]["SHOW_LESS"];
             }
